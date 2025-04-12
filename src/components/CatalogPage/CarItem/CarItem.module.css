@@ -1,0 +1,109 @@
+.item {
+  margin-bottom: 28px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image {
+  height: 268px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.title-container {
+  display: flex;
+  align-items: end;
+  margin-bottom: 4px;
+}
+
+.car-info {
+  display: grid;
+  row-gap: 4px;
+}
+
+.model {
+  color: var(--button);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--main);
+}
+
+.rentalPrice {
+  margin-left: auto;
+}
+
+.info-list {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: var(--gray);
+}
+
+.info-list li::after {
+  content: '';
+  display: inline-block;
+  height: 16px;
+  width: 2px;
+  background-color: var(--gray-light);
+  margin-inline: 6px;
+  vertical-align: bottom;
+}
+
+.model-list li:last-child::after {
+  content: none;
+}
+
+.link {
+  display: block;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  margin-inline: auto;
+  color: var(--white);
+  background-color: var(--button);
+  border-radius: 12px;
+  padding: 12px 97px;
+  width: 276px;
+  height: 44px;
+}
+
+.link:hover {
+  background-color: var(--button-hover);
+}
+
+.icon {
+  fill: none;
+  stroke: var(--badges);
+  stroke-width: 2;
+  transition: none;
+}
+
+.button {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.icon:hover {
+  stroke: var(--button-hover);
+}
+
+.icon:active {
+  transform: scale(1.15);
+}
+
+.focus {
+  fill: var(--button-hover);
+  stroke: none;
+}
