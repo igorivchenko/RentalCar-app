@@ -39,6 +39,8 @@ information, and easily book a car online.**
 - **Node.js** – Used to create a mock API
 - **Axios** – For handling HTTP requests
 
+---
+
 ## ⚙️ Getting Started
 
 1. **Clone the repository**
